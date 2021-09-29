@@ -1,0 +1,19 @@
+.card {
+  color: black;
+  box-sizing: border-box;
+}
+.product-img img {
+  margin: 20px;
+  padding: 10px;
+  border-radius: 20%;
+  transition: 2s;
+}
+.product-img img:hover {
+  transform: scale(1.5);
+  box-shadow: 10px 10px 10px black;
+}
+
+.gridItem {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
